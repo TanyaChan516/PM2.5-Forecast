@@ -1,5 +1,5 @@
 #import dataset
-BJ <- read.csv("/dataset.csv")
+BJ <- read.csv("./dataset.csv")
 BJ <- na.omit(BJ)
 BJ <- BJ[-c(7:9)]
 BJ$cbwd <- as.numeric(as.factor(BJ$cbwd))
