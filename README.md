@@ -60,7 +60,7 @@ humidity, wind direction, wind speed, temperature, season, pressure, dew point, 
 1. Linear regression with best subset selection and Lasso regulation
   > - captures the linear relationship between predictors and PM2.5 <br>
   > - best subset selection select best model that minimize RSS by considering all combinations <br>
-  > - Lasso works best with small no. of predictors (14) with hight predictive power and interpredibility <br>
+  > - Lasso works best with small no. of predictors (14) with high predictive power and interpredibility <br>
 2. Regression tree with bagging and boosting
   > - handle the highly non linearity and complexity between predictors and PM2.5 with high interpredability <br>
   > - improve predition accuracy <br>
